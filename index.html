@@ -8,7 +8,7 @@
 	<meta name="author" content="Dryazgov Artem">
 	<meta name="description" content="">
 
-	<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="icons/favicon/favicon.ico" type="image/x-icon">
 
 
 	<link rel="stylesheet" href="css/style.min.css">
@@ -18,58 +18,57 @@
 
 <body>
 	<nav class="nav">
-		<div class="container">
-			<a href="#" class="logo">
-				<img src="icons/logo.png" alt="Логотип">
-			</a>
-			<ul class="nav__list">
-				<li class="nav__item"><a href="#">ГЛАВНАЯ</a></li>
-				<li class="nav__item"><a href="#">ИСТОРИЯ</a></li>
-				<li class="nav__item"><a href="#">О ЗДАНИИ</a></li>
-				<li class="nav__item"><a href="#">МЕРОПРИЯТИЯ</a></li>
-				<li class="nav__item"><a href="#">КОНТАКТЫ</a></li>
-			</ul>
+		<a href="index.html" class="logo">
+			<img src="icons/logo.png" alt="Логотип">
+		</a>
+		<ul class="nav__list">
+			<li class="nav__item nav__item_active"><a href="index.html">ГЛАВНАЯ</a></li>
+			<li class="nav__item"><a href="history.html">ИСТОРИЯ</a></li>
+			<li class="nav__item"><a href="architect.html">О ЗДАНИИ</a></li>
+			<li class="nav__item"><a href="contacts.html">МЕРОПРИЯТИЯ</a></li>
+			<li class="nav__item"><a href="#">КОНТАКТЫ</a></li>
+		</ul>
+		<div class="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
 		</div>
 	</nav>
 	<main>
 		<section class="promo">
-			<div class="container">
-				<div class="promo__content">
-					<h1 class="title">АННЕКИРХЕ</h1>
-					<div class="promo__descr">
-						ЛЮТЕРАНСКАЯ ЦЕРКОВЬ<br>СВЯТОЙ АННЫ<br>в Санкт-Петербурге
-					</div>
+			<div class="promo__content">
+				<h1 class="title">АННЕКИРХЕ</h1>
+				<div class="promo__descr">
+					ЛЮТЕРАНСКАЯ ЦЕРКОВЬ<br>СВЯТОЙ АННЫ<br>в Санкт-Петербурге
 				</div>
 			</div>
 		</section>
 		<section class="about">
-			<div class="container">
-				<div class="about__content">
-					<h2 class="title title_violet">ЧТО ЭТО ЗА ЗДАНИЕ?</h2>
-					<div class="about__descr">
-						Аннекирхе - одно из самый необычных и творческих мест в Санкт-Петербурге. Эту церковь называют
-						одной из самый посещаемых лютеранских церквей в России. Ее апокалиптический интерьер привлекает
-						людей, а история этого здания никого не оставляет равнодушным.
-					</div>
-					<div class="about__info">
-						<a href="#" class="about__link">
-							<img src="img/about/1.png" alt="Об архитекторе">
-							<span class="link-name">Об архитекторе</span>
-						</a>
-						<a href="#" class="about__link">
-							<img src="img/about/2.png" alt="О здании">
-							<span class="link-name">О здании</span>
-						</a>
-						<a href="#" class="about__link">
-							<img src="img/about/3.png" alt="Как добраться">
-							<span class="link-name">Как добраться</span>
-						</a>
-					</div>
+			<div class="about__content">
+				<h2 class="title title_violet">ЧТО ЭТО ЗА ЗДАНИЕ?</h2>
+				<div class="about__descr">
+					Аннекирхе - одно из самый необычных и творческих мест в Санкт-Петербурге. Эту церковь называют
+					одной из самый посещаемых лютеранских церквей в России. Ее апокалиптический интерьер привлекает
+					людей, а история этого здания никого не оставляет равнодушным.
+				</div>
+				<div class="about__info">
+					<a href="architect.html" class="about__link">
+						<img src="img/about/1.png" alt="Об архитекторе">
+						<span class="link-name">Об архитекторе</span>
+					</a>
+					<a href="history.html" class="about__link">
+						<img src="img/about/2.png" alt="О здании">
+						<span class="link-name">О здании</span>
+					</a>
+					<a href="contacts.html" class="about__link">
+						<img src="img/about/3.png" alt="Как добраться">
+						<span class="link-name">Как добраться</span>
+					</a>
 				</div>
 			</div>
 		</section>
 		<section class="style">
-			<div class="container">
+			<div class="style__wrapper">
 				<div class="style__content">
 					<h2 class="title title_white">АРХИТЕКТУРНЫЙ СТИЛЬ</h2>
 					<div class="style__descr">
@@ -79,8 +78,11 @@
 						греческого храма или римского сооружения с треугольным фронтоном, колоннадами, портиком,
 						пилястрами, карнизами – элементами ордерной системы.<br><br>
 
-						Задача всех объектов, создаваемых в стиле классицизм – стремление к простоте, строгости, и в то
-						же время к гармонии и совершенству.
+						<span>
+							Задача всех объектов, создаваемых в стиле классицизм – стремление к простоте, строгости, и в
+							то
+							же время к гармонии и совершенству.
+						</span>
 					</div>
 				</div>
 				<div class="style__more">
@@ -93,25 +95,25 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<div class="container">
-			<a href="#" class="logo">
-				<img src="icons/logo.png" alt="Логотип">
-			</a>
-			<ul class="nav__list">
-				<li class="nav__item"><a href="#">ГЛАВНАЯ</a></li>
-				<li class="nav__item"><a href="#">ИСТОРИЯ</a></li>
-				<li class="nav__item"><a href="#">О ЗДАНИИ</a></li>
-				<li class="nav__item"><a href="#">МЕРОПРИЯТИЯ</a></li>
-				<li class="nav__item"><a href="#">КОНТАКТЫ</a></li>
-			</ul>
-			<div class="footer__social">
-				<a href="#" class="footer__link"><img src="icons/social/vk.svg" alt="vkontakte"></a>
-				<a href="#" class="footer__link"><img src="icons/social/instagram.svg" alt="instagram"></a>
-				<a href="#" class="footer__link"><img src="icons/social/facebook.svg" alt="facebook"></a>
-			</div>
+		<a href="index.html" class="logo">
+			<img src="icons/logo.png" alt="Логотип">
+		</a>
+		<ul class="nav__list">
+			<li class="nav__item nav__item_active"><a href="index.html">ГЛАВНАЯ</a></li>
+			<li class="nav__item"><a href="history.html">ИСТОРИЯ</a></li>
+			<li class="nav__item"><a href="architect.html">О ЗДАНИИ</a></li>
+			<li class="nav__item"><a href="#">МЕРОПРИЯТИЯ</a></li>
+			<li class="nav__item"><a href="contacts.html">КОНТАКТЫ</a></li>
+		</ul>
+		<div class="footer__social">
+			<a href="#" class="footer__link"><img src="icons/vk1.png" alt="vkontakte"></a>
+			<a href="#" class="footer__link"><img src="icons/Слой 27.png" alt="instagram"></a>
+			<a href="#" class="footer__link"><img src="icons/fb.png" alt="facebook"></a>
 		</div>
 	</footer>
 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
